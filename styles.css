@@ -1,11 +1,17 @@
+@font-face {
+    font-family: "Quikhand";
+    src: url("Quikhand.ttf");
+    
+  }
 body{
 background-color: lightcoral;
 text-align: center;
+font-family: "Quikhand";
 }
 
 
 .loginbox{
-padding-top: 40px;
+padding-top: 20px;
 padding-bottom:40px;
 align-content: center;
 background-color: cornsilk;
@@ -19,7 +25,7 @@ height:auto;
 .container{
     
     margin:auto;
-    margin-top: 150px;
+    margin-top: 90px;
     width:400px;
     
     align-content: center;
@@ -38,6 +44,18 @@ width:auto;
 }
 
 .li{
-width:70px;
+height:70px;
+background-color: cornsilk;
+padding-left:10px;
+ 
+text-align: left;
+
+}
+.submitButton{
+width:100px;
+height: 40px;
+border-radius: 25px;
+margin-left:45px;
+background-color: darkgrey; 
 
 }
